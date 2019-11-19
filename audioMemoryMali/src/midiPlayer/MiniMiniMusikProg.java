@@ -45,6 +45,8 @@ public class MiniMiniMusikProg {
 			ex.printStackTrace();
 
 		}
+		
+		
 
 	}
 

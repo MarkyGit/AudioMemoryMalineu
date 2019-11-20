@@ -9,6 +9,7 @@ import javax.sound.midi.Track;
 
 public class MiniMiniMusikProg {
 
+	// diesen Text habe ich heute, 20. 11.19, gepusht
 	public static void main(String[] args) {
 		MiniMiniMusikProg mini = new MiniMiniMusikProg();
 		mini.spielen();
@@ -45,8 +46,6 @@ public class MiniMiniMusikProg {
 			ex.printStackTrace();
 
 		}
-		
-		
 
 	}
 

@@ -20,7 +20,8 @@ public class PlayerWithInput {
 	// Laustärtke
 	int lautstaerke = 100;
 
-	Sliderer wertSliderer = new Sliderer();length=wertSliderer.getValue();
+	//Sliderer wertSliderer = new Sliderer();
+	//length=wertSliderer.getValue();
 
 	public static void main(String[] args) {
 		PlayerWithInput mini = new PlayerWithInput();

@@ -1,4 +1,4 @@
-package midiPlayer;
+package midiPlayer; // 11.12.19 Bemerkung Mark
 
 import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
@@ -15,6 +15,8 @@ public class Sliderer extends Application {
 
 	@Override
 	public void start(Stage stage) {
+
+		int sliderWert = 0;
 
 		Label label = new Label("Lautstärke:");
 
@@ -40,9 +42,11 @@ public class Sliderer extends Application {
 					Number oldValue, Number newValue) {
 
 				infoLabel.setText("Lautstärke momentan: " + (int) slider.getValue());
-			}
-		});
 
+			}
+
+		});
+		sliderWert = (int) slider.getValue();
 		VBox root = new VBox();
 		root.setPadding(new Insets(20));
 		root.setSpacing(10);
@@ -52,6 +56,12 @@ public class Sliderer extends Application {
 		Scene scene = new Scene(root, 350, 200);
 		stage.setScene(scene);
 		stage.show();
+
 	}
 
+	public static void main(String[] args) {
+
+		launch(args);
+
+	}
 }

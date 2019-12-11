@@ -1,6 +1,6 @@
 // Mark fragt: folgend wird die length als 0 definiert
 
-package midiPlayer;
+package audioMemory;
 
 import javax.sound.midi.InvalidMidiDataException;
 import javax.sound.midi.MidiEvent;

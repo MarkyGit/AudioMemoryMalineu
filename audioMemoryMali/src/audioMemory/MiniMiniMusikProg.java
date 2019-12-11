@@ -1,4 +1,4 @@
-package midiPlayer;
+package audioMemory;
 
 import javax.sound.midi.MidiEvent;
 import javax.sound.midi.MidiSystem;

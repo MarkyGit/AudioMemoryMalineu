@@ -1,4 +1,4 @@
-package midiPlayer;
+package audioMemory;
 
 import java.util.ArrayList;
 import java.util.Collections;

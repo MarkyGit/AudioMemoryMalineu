@@ -1,4 +1,4 @@
-package midiPlayer;
+package audioMemory;
 
 import java.io.IOException;
 
